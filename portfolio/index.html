@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore my portfolio page showcasing my interests, achievements, and aspirations as I pursue my academic and personal passions at Dublin City University." />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <title>Bartosz Kogut Portfolio</title>
+    
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/layout.css"/>
+	
+</head>
+
+
+<body>
+
+    <main>
+	 <header>  <!-- This header contains an h1 element, being my name and an p element, which is a small slogan under me name.-->
+			<div>  <!-- A div is a simple container tag that can group other elements for better organization -->				
+			<h1 id="name">Bartosz Kogut</h1>
+            <p id="slogan">The Art of Programming: A Computer Science student's journey</p>
+            </div>
+     </header>
+	    
+        <nav class="page-nav"> <!-- A navigation bar with links to relevant parts on the page.-->
+            <ul id="menu">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#work">Work Experience</a></li>
+                <li><a href="#images">Image Gallery</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+       
+        <section id="about">  <!-- this is the "about me" section, which is one of the first things a visitor sees on this website. It tells a bit about myself and acts as a business card. -->
+			<div>
+                <h2>About Me</h2>
+				<img id="me" style="margin-left: 10px;" src="images/me-crop.jpg" alt="A photo of me">
+				
+				<div class="block">
+				<div class="socials"> <!-- these are links to my relevant social media pages --> 
+				<a  href="https://www.linkedin.com/in/bartosz-kogut-61b0b4245/" target=”_blank”><img src="images/linkedin.png" alt="Linkedin link" style="width:100px;height:100px; margin-bottom:80px" title="My Linkedin"></a>
+				</div> 
+				<div class="socials">		
+				<a  href="https://github.com/LordBarton" target=”_blank”><img src="images/github.png" alt="Github link" style="width:100px;height:100px; margin-bottom:80px" title="My Github"></a>
+				</div>
+				<div class="socials">
+				<a  href="https://twitter.com/BartoszKogut1" target=”_blank”><img src="images/twitter.png" alt="Twitter link" style="width:115px;height:100px; margin-bottom:80px" title="My Twitter"></a>
+				</div>
+				</div>
+				
+				<div class="content" style="margin-right: 20px;">             
+					<p>I'm Bartosz, and I'm currently studying Computer Science at Dublin City University. I'm 
+					originally from Poland, and I always wanted to study abroad, but I wasn't sure which course
+					to pick. After finishing high school, I moved to Ireland, and that's when I got interested in 
+					computer programming, especially in the C language. I worked full-time during my gap year (more on that below), 
+					and then decided to pursue a Computer Science degree at DCU.</p>
+					<p>In addition to my studies, my goal is to become a skilled software developer, focusing on creating useful 
+					applications that can solve real problems and improve user experiences. I also hope to combine my love for travel
+					with my career, working on international tech projects, collaborating with diverse teams, and experiencing different cultures.</p>
+					<p>Apart from my education and career ambitions, I love exploring through travel, enjoy cooking, and I'm committed to learning
+					more foreign languages.</p>
+                </div>
+            </div>
+        </section>
+		
+
+        <section id="work"> <!-- this section includes most of my work experience as well as a link to view my cv, if one wishes to do so. -->
+            <div>
+                <h2>Work Experience</h2>
+                <div class="content" style="position: relative;">
+					<p>During my gap year, I had the experience of working at the deli counter 
+					of Dunnes Charlestown in Dublin, Ireland, from March 2023 to August 2023., I found this role to be more about 
+					purpose than passion. It was an opportunity to make the most of my gap year and 
+					ensure that this time was not wasted before embarking on my college journey.
+					This experience was significant because it provided me with the opportunity 
+					to learn valuable customer service skills and taught me the importance of commitment and 
+					dedication in any job.</p>
+					<p>Furthermore, my role as a Junior Site Electrician at Kabelexperte UG in
+					Germany, during the Summer of 2022, was my very first job experience. It marked the beginning
+					of my professional journey and instilled in me a strong work ethic and a commitment to excellence 
+					that continues to guide me in my career.</p><br>
+					<h3 style="display: inline">Dunnes Charlestown</h3>
+					<p class="date"> Mar. 2023 – Aug. 2023</p><br>
+					<i>Deli Assistant</i>
+					<i class="date">Dublin, Ireland</i>
+					<ul>
+					<li>Delivering prompt customer service.</li>
+					<li>Efficiently preparing various dishes.</li>
+					<li>Promoting teamwork for a seamless workflow.</li>
+					</ul><br>
+					<h3 style="display:inline">Kabelexperte UG</h3>
+					<p class="date"> May. 2022 – Aug. 2022</p><br>
+					<i>Junior Site Electrician</i>
+					<i class="date">Baden-Württemberg, Germany</i>
+					<ul>
+					<li>Safe usage of various hand and power tools.</li>
+					<li>General assistance to the electrician.</li>
+					<li>Installations of electrical wiring and cabling.</li>
+					</ul><br>
+					<p>My full CV is available <a href="cv.pdf"><i>here</i></a>.</p>
+
+				</div>
+            </div>
+        </section>
+		<br>
+
+        <section id="images">
+		
+            <div id="gallery"> <!-- this image gallery initially had 3 figure tags for images, but I added one more to make it a symmetrical grid, the images represent my interests and things important to me. -->
+                <h2>Image Gallery</h2> 
+                <div class="content">
+				<figure class="an-image">
+					 <img title="Dedicated to the art of programming, continuously expanding my knowledge." class="an-image" src="images/coding.jpg" alt="A picture of computer code">
+				</figure>        
+				<figure class="an-image">
+					<img title="The majestic Warsaw skyline, the proud capital of my nation." class="an-image" src="images/warsaw.jpg" alt="The city of Warsaw">
+				</figure> 
+				<figure class="an-image">
+				   <img title="Passionate about the culinary world, trying new flavors and techniques." class="an-image" src="images/pizza.jpg" alt="A Neapolitan style pizza">
+				</figure>
+				<figure class="an-image">
+				   <img title="An avid explorer, venturing into new lands and cultures, all while embracing foreign languages." class="an-image" src="images/plane-sun.jpg" alt="View from an airplane window">
+				</figure>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact-me container">
+            <div class="container-content">
+                <h2>Contact Me</h2>
+                <div class="content">
+                    <form action="https://formspree.io/f/xpzgnjlk" method="POST"> <!-- The form is now functional. -->
+	                    <!-- I styled this by adding background color, made the input boxes bigger and added borders to them.-->
+                        <p>
+                            <label for="contact-name">Your Name</label>
+                            <input id="contact-name" type="text" name="contact-name"/>
+                        </p>
+                        <p>
+                            <label for="contact-email">Your email address</label>
+                            <input id="contact-email" type="email" name="contact-email"/> </p>
+                        <p>
+                            <label for="contact-phone">Your phone number</label>
+                            <input id="contact-phone" type="tel" name="contact-phone"/> </p>
+                        <p>
+                            <label for="contact-message">Your message</label>
+                            <textarea id="contact-message" name="contact-message" rows="5"> </textarea>
+                        </p>
+                        <p>
+                            <input type="submit" value="send my message" /> </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer id = "footer-layout">
+              <p> &copy; <a href="dcu.ie/">DCU 2023-2024</a>
+				<span class="footer-separator">&middot;</span>
+				<span class="footer-text">Bartosz Kogut</span> 
+				<span class="footer-separator">&middot;</span> 
+				<span class="footer-text">This is student coursework</span> 
+				<span class="footer-separator">&middot;</span>
+				<span class="footer-text">Lecturer <a href="http://www.computing.dcu.ie/~jkernan">Jane Kernan</a></span> 
+				<span class="footer-separator">&middot;</span> 
+				<span class="footer-text"><a href="http://validator.w3.org/check?uri=referer" title="W3C HTML Validation Service" >Valid HTML</a><br/></span> 
+			</p>
+         
+        </footer>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+/* element styling (e.g. standard p, h1, h2, a, etc) */
+body{
+	font-family: 'Poppins', sans-serif;
+	background-color: #f9f5f1;
+	text-align: justify;
+	text-justify: inter-word;
+}
+h2{
+	font-size: 2.5em;
+}
+h3{
+	font-size: 1.5em;
+}
+
+p, li{
+	font-size: 120%;
+}
+
+
+/* navigation styles */
+nav.page-nav{
+	background-color: #e2d9cf;
+	padding: 5px;
+	margin-bottom: 60px; 
+	text-align: center;
+}
+#menu li{
+	list-style-type: none;
+	display:inline;
+	margin:80px;
+}
+
+/* page header styles*/
+#name{
+	font-size: 400%;
+	text-align: center;
+	margin: 0;
+	
+}
+#slogan{
+	padding-bottom: 40px;
+	text-align: center;
+	font-style: italic;
+}
+
+/* styling for the section content */
+
+#about div.content{
+	text-align: justify;
+	text-justify: inter-word;
+	background-color: #d8bea6;
+	padding: 10px;
+	border-radius: 5px;
+	width: 1200px;
+	height: auto;
+	margin-bottom: 50px;
+	max-width: 90%
+}
+
+#about img{
+	float: left;
+	margin-right: 20px;
+	height: auto;
+}
+
+#about p{
+	margin-right: 20px;
+}
+
+.content{
+	margin-left: 10px;
+	
+}
+
+div.socials{
+	padding-bottom: 40px;
+	display: block;
+	max-width: 90%;
+}
+
+div.block{
+	float: right;
+	margin-right: 140px;
+	margin-left: 20px;
+}
+
+#work{
+	width: 1000px;
+	max-width: 90%;
+}
+
+.date{
+	display: inline;
+	position: absolute;
+	right: 0;
+}
+
+a{ 
+ text-decoration: none;
+}
+
+/*The following links were really helpful in learning how to style my image gallery, so I thought I should mention them:
+https://www.w3schools.com/css/css_grid.asp
+https://www.w3schools.com/css/css3_transitions.asp
+https://www.w3schools.com/cssref/css3_pr_transform.php */
+
+#gallery div{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  max-width: 90%;
+}
+
+img.an-image {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+img.an-image:hover{
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+
+
+/* form styling */
+
+form{
+	background-color: #e2d9cf;
+	border-radius: 5px;
+	width: 700px;
+	max-width: 90%;
+	padding: 5px;
+}
+#contact textarea, input{
+	background-color: #f9f5f1;
+	padding: 10px;
+}
+#contact-message{
+	border-style: solid black;
+}
+
+
