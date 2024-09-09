@@ -1,0 +1,96 @@
+
+
+body {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+p img {
+    float: right;
+}
+
+.main-style {
+	background-image: url(../images/tojo2.jpg);
+	background-attachment: fixed;
+	background-size: contain;
+	background-position-y: bottom;
+	min-height: 50%;
+	min-width: 50%;
+	background-position: bottom left;
+}
+
+.header-content {
+	margin: 0;
+	padding: 12.5% 0% 10.5% 18%;
+	text-align: center;
+	font-size: 300%;
+	max-width:100%;
+	max-height:100%;
+	height: auto;
+	background: url(../images/tojo1.jpg);
+	background-attachment: fixed;
+	filter: sepia(65%) saturate(75%) brightness(90%) hue-rotate(25deg);
+	background-size: cover;
+}
+
+.header-content p {
+	font-size: 100%;
+	font-style: oblique;
+}
+
+.content {
+	border-left-style: solid;
+	border-right-style: solid;
+	border-color: rgba(255, 225, 0, 0.05);
+	border-width: 16px;
+	margin: 0 30%;
+	background-color: rgba(255, 255, 255, 0.60);
+	background-size: 30% 30%;
+}
+
+nav a {
+	color:rgb(255, 255, 255);
+	text-decoration: none;
+	font-style: oblique;
+}
+
+nav {
+	list-style: none;
+	background-color: black;
+	color: white;
+	position: sticky;
+	top: 0;
+}
+
+nav ul {
+	list-style-type: none; 
+	display: flex; 
+}
+
+nav ul li {
+	margin: 1% auto;
+}
+
+h2 {
+	text-align: center;
+	margin: 0;
+	padding: 3% 0;
+}
+
+p {
+	text-align: center;
+	margin: 0;
+	padding: 3% 0;
+	font-size: large;
+}
+
+#footer-layout, #footer-layout p {
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 1% 0;
+}

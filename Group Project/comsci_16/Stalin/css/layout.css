@@ -1,0 +1,56 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+	background-color: #000;
+}
+
+header {
+    text-shadow: 2px 2px black;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	margin: 0px;
+	padding: 10% 0%;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5em; 
+}
+
+
+section {
+    padding: 20px;
+}
+
+#content {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div.text {
+	background-color: #ffff;
+	margin-left: 25%;
+	margin-right: 25%;
+	box-shadow: 0px 0px 5px 0px;
+	padding: 10px;
+	font-size: 120%;
+	text-align: justify;
+	text-justify: inter-word;
+	
+}
+
+#first-pic {
+	float: right;
+	margin: 0px 10px 0px 10px;
+	max-width: 50%;
+	box-shadow: 0px 0px 5px 0px;
+}
+
+#second-pic {
+	float: left;
+	margin: 0px 10px 0px 10px;
+	max-width: 50%;
+	box-shadow: 0px 0px 5px 0px;
+}

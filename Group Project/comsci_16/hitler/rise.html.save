@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Meta description">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rise of the Nazi Party</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+</head>
+<body>
+<div class="header-content">
+    <img src="images/rise.jpg" alt="People of Germany cheering for Hitler">
+     <h1>The Rise of Hitler and the Nazis</h1>  
+    </div>
+<nav class="page-nav">
+    <ul class="tabs">
+        <li class="tab"><a href="index.html">Home</a></li>
+        <li class="tab"><a href="early-life.html">Early Life</a></li>
+        <li class="tab"><a href="rise.html">Rise to Power</a></li>
+        <li class="tab"><a href="ww2.html">World War II</a></li>
+        <li class="tab"><a href="downfall.html">Hitler's Downfall</a></li>
+    </ul>
+    </nav>
+    </header>
+    <br><br><br>
+<div class="content-container">
+<div class="content">
+    <h1>The rise of the Nazi Party</h1>
+    <br>
+    <p>Hitler return to Munich in late 1918 and he joined a small German Worker's Party, which aimed to unite the interests of the working class with a strong German nationalism. Due to his skilled oratory and charmismatic energy he was promoted to head of propaganda of the party. </p>
+    <br>
+    <p>One of Hitler's many strokes of genius was to adopt a version of the swastika- an ancient sacred symbol of Hinduism, Janism and Buddhism as the party's emblem. This symbol would then become a symbol to be feared in the years to come.</p>
+    <p>By the end of 1921, Hitler led the growing Nazi party, capitalizing on widepsread discontent with the newly formed Weimar Republic and the punishing terms of the Treaty of Versailles. Many former army officers in Munich would join the Nazi Party as they too were severely unhappy with the Weimar Republic, one of these officers was Ernst Rohm, who recruited the "strong arm" squads- known as the SA, which Hitler used to protect party meetings and attack his opponents.</p>
+    </div>
+    <img src="images/
+    </div>
+    <br><br><br>
+<div class="content-container">
+<div class="content">
+    <h1>The Third Reich</h1>
+    <br>
+    <p>In 1932, Hilter ran agsint Paul von Hindenburg for President, Hitler received 36.8 percent of the vote. In 1933, the Governemtn was in chaos and Hindenburg named the 43-year-old Hitler as chancellor.
+       1933 marked the birth of the Third Reich which Hitler would boast that it would endure for a thousand years.</p>
+
+    <p>In Februrary 1933, Germany's parliament building, the Reichstag was set on fire, it was believed it was the work of a Dutch communist, though later evidence suggested Nazis set the Reichstag fire themselves. Hitler then used this an excuse to step up the political oppression and violence against his opponents.<br>On March 23, the Government passed the Enabling Act, giving full power to Hitler.</p>
+    <p>In July of the same year, the governemtn also passed another law stating that Hitler's Nazi Party was the only party allowed in Germany, within months all non-Nazi parties, trade unions and other organizations had ceased to exist.</p>
+    <p>With Germany now in his hands Hilter now ahd his eyes set on the rest of Europe.</p>
+</div>
+</div>
+<br><br><br>
+<div class="content-container">
+<div class="content">
+    <h1>Persecution of Jews</h1>
+    <br>
+    <p>In 1935, Hitler passed the Nuremberg Laws, which deprived Jews of German citizenship and barred them from marrying or having relations with German citizens of "German related blood".</p>
+      <br>
+      <p> Hitler's new government also sought to establish the cultural dominance of Nazism by burning books, forcing newspapers out of business, using radio and mvoies for propagandra purposes and forcing teachers throughout Germany's schools to join the party.</p>
+    </div>
+    </div>
+<br><br><br>
+<footer>
+<div class="footer">
+<div class="footer-container">
+    <ul>
+    <li><a href="https://www.dcu.ie/">DCU 2023-2024</a></li>
+    <li><a href="http://www.computing.dcu.ie/~jkernan">Lecturer - Jane Kernan</a></li> 
+    <li><a href="http://validator.w3.org/check?uri=referer">W3C HTML Validation Service</a></li>
+    </ul>
+    </div>
+<div class="footer-container">
+    <p>This is Student Coursework - All rights reserved - Designed by Darragh Lee (23382526)</p>
+    </div>
+    </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+/* 
+Classes: .class
+body-style
+main-style
+page-header   header-content
+page-nav
+page-footer
+
+container
+content
+paragraph
+
+ID: #id
+intro
+early-life
+civil-war
+spain-under-franco
+legacy
+
+*/
+
+/* Body style */
+body {
+	margin: 0px;
+	
+	background-image: url("../images/san_sebastian.jpg");
+	background-size: cover;
+} 
+
+.body-style {
+	font-family: sans-serif;
+}
+
+/* Header style */
+.page-header {
+	margin: auto;
+	width: 50%;
+	
+	border-width: 5px;
+	border-radius: 15px;
+	border-style: dotted;
+	border-color: black;
+}
+
+.header-content {
+	text-align: center;
+}
+
+/* All elements */
+.main-style {
+	margin: 0% 20%;
+}
+
+.container {
+	margin: 10px 0px;	
+
+	border-width: 3px;
+	border-radius: 15px;
+	border-style: solid;
+	border-color: black;
+	
+	background-color: white;
+	
+	box-shadow: 5px 5px 5px;
+}
+
+.content {
+	margin: 10px;
+}
+
+.paragraph.figure {
+	float: right;
+	object-fit: contain;
+	
+	height: 25%;
+	width: 25%;
+}
+
+/* Navigation style */
+/*
+.page-nav {
+	background-color: gray;
+	top: 0;
+	width: 100%;
+}
+
+.page-nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.page-nav li{
+	display: inline;
+}
+
+.page-nav a {
+	float: left;           
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration: none;
+}
+*/
+
+/* Image gallery */
+.gallery {
+	
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;	
+
+	align-items: center;
+	justify-content: center;
+}
+
+.image {
+	text-align: center;
+}
+
+.image img {
+	object-fit: contain;
+
+	width: 50%;
+	height: 50%;
+}
+
+/* Footer style */
+.page-footer {
+	position: fixed;
+	bottom: 0;
+}
+
